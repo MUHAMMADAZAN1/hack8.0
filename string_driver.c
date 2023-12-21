@@ -9,7 +9,6 @@ int main(){
     printf("1: old String: %s\n", name);
     replaceChar(name, oldChar, newChar);
     printf("1: New string: %s\n", name);
-    
     // String copy to another string and replace with new charater if there a old character
     char oldChar1 = 'a';
     char newChar1 = 'z';
@@ -44,3 +43,4 @@ int main(){
         print2DStr(splitStr);
     }
 }
+    
