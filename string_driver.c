@@ -39,6 +39,8 @@ int main(){
     printf("5: The String: %s\n",sentence);
     char **splitStr = lengthSplit(sentence, n);
     if(splitStr != NULL){
-   
+        printf("5: Splited to: ");
+        print2DStr(splitStr);
+    }
 }
     
